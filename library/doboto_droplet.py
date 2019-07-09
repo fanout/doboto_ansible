@@ -293,7 +293,7 @@ class Droplet(DOBOTOModule):
             backups=dict(default=False, type='bool'),
             ipv6=dict(default=False, type='bool'),
             private_networking=dict(type='bool'),
-            user_data=dict(default=False),
+            user_data=dict(default=None),
             monitoring=dict(type='bool'),
             volume=dict(default=None, type='list'),
             tags=dict(type='list'),
